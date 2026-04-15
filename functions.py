@@ -37,4 +37,9 @@ print(y)
 text="hello"
 text="H"+text[1:]
 print(text)
+#default argument
+def greet(name="Guest"):
+    print("Hello", name)
 
+greet("Ali")   # uses provided value
+greet()        # uses default value
